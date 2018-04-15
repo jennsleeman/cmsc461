@@ -1,0 +1,3 @@
+/* File: <%= ARGV[0] %>, Row: <%= $. %> */
+INSERT INTO student(first, last) VALUES("<%= row[:first_name] %>","<%= row[:last_name] %>")
+<%= "\n" %>
